@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d00515f-9335-4bf8-9a23-d9bc713e30a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -16,9 +16,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1531390420252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/guess_number_kata$InputValidatorTest.ic" NAME="InputValidatorTest Coverage Results" MODIFIED="1531414334378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest.ic" NAME="AnswerTest Coverage Results" MODIFIED="1531413803202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1531413794425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest_and_1_more.ic" NAME="AnswerTest and 1 more Coverage Results" MODIFIED="1531413764722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -30,8 +37,8 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+            <state relative-caret-position="293">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#607#608#0" expanded="true" />
@@ -41,11 +48,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+            <state relative-caret-position="130">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputValidatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/validator/InputValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -434,12 +459,13 @@
         <option value="$PROJECT_DIR$/src/test/java/tw/core/generator/AnswerGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-46" />
-    <option name="y" value="107" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="290" />
+    <option name="y" value="274" />
     <option name="width" value="1906" />
     <option name="height" value="951" />
   </component>
@@ -509,14 +535,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.should_get_the_success_status_when_guess_input_is_wrong">
+  <component name="RunManager" selected="JUnit.InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -528,8 +554,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_get_2A0B_when_input_incorrect" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -539,76 +565,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_get_2_when_input_is_1234" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_get_2_when_input_is_1234" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AnswerTest.should_get_true_value_when_input_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_get_true_value_when_input_correct" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AnswerTest.should_throw_Excepetion_when_contains_special_chart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_throw_Excepetion_when_contains_special_chart" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GameTest.should_get_the_success_status_when_guess_input_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -620,7 +577,76 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
-      <option name="METHOD_NAME" value="should_get_the_success_status_when_guess_input_is_wrong" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="InputValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.InputValidatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.InputValidatorTest" />
+      <option name="METHOD_NAME" value="should_get_the_FAIL_status_when_guess_input_is_wrong" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="InputValidatorTest.should_return_false_when_given_a_Four_digits_and_contains_special_char" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.InputValidatorTest" />
+      <option name="METHOD_NAME" value="should_return_false_when_given_a_Four_digits_and_contains_special_char" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -670,19 +696,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_contains_special_chart" />
-      <item itemvalue="JUnit.AnswerTest.should_get_true_value_when_input_correct" />
-      <item itemvalue="JUnit.AnswerTest.should_get_2A0B_when_input_incorrect" />
-      <item itemvalue="JUnit.AnswerTest.should_get_2_when_input_is_1234" />
-      <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_input_is_wrong" />
+      <item itemvalue="JUnit.GameTest" />
+      <item itemvalue="JUnit.AnswerTest" />
+      <item itemvalue="JUnit.InputValidatorTest" />
+      <item itemvalue="JUnit.InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" />
+      <item itemvalue="JUnit.InputValidatorTest.should_return_false_when_given_a_Four_digits_and_contains_special_char" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_input_is_wrong" />
-        <item itemvalue="JUnit.AnswerTest.should_get_2_when_input_is_1234" />
-        <item itemvalue="JUnit.AnswerTest.should_get_2A0B_when_input_incorrect" />
-        <item itemvalue="JUnit.AnswerTest.should_get_true_value_when_input_correct" />
-        <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_contains_special_chart" />
+        <item itemvalue="JUnit.InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" />
+        <item itemvalue="JUnit.InputValidatorTest" />
+        <item itemvalue="JUnit.InputValidatorTest.should_return_false_when_given_a_Four_digits_and_contains_special_char" />
+        <item itemvalue="JUnit.AnswerTest" />
+        <item itemvalue="JUnit.GameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -700,39 +726,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_get_true_value_when_input_correct - 2018.07.13 at 00h 11m 36s.xml">
-      <configuration name="AnswerTest.should_get_true_value_when_input_correct" configurationId="JUnit" />
+    <history-entry file="AnswerTest - 2018.07.13 at 00h 43m 24s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 11m 42s.xml">
-      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest - 2018.07.13 at 00h 44m 35s.xml">
+      <configuration name="InputValidatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 12m 34s.xml">
-      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest - 2018.07.13 at 00h 44m 43s.xml">
+      <configuration name="InputValidatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 16m 59s.xml">
-      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest_should_get_the_FAIL_status_when_guess_input_is_wrong - 2018.07.13 at 00h 46m 04s.xml">
+      <configuration name="InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 24m 22s.xml">
-      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest_should_get_the_FAIL_status_when_guess_input_is_wrong - 2018.07.13 at 00h 46m 17s.xml">
+      <configuration name="InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 24m 34s.xml">
-      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest_should_get_the_FAIL_status_when_guess_input_is_wrong - 2018.07.13 at 00h 46m 43s.xml">
+      <configuration name="InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 26m 01s.xml">
-      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest_should_return_false_when_given_a_Four_digits_and_contains_special_char - 2018.07.13 at 00h 49m 31s.xml">
+      <configuration name="InputValidatorTest.should_return_false_when_given_a_Four_digits_and_contains_special_char" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2_when_input_is_1234 - 2018.07.13 at 00h 30m 17s.xml">
-      <configuration name="AnswerTest.should_get_2_when_input_is_1234" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest_should_get_the_FAIL_status_when_guess_input_is_wrong - 2018.07.13 at 00h 52m 08s.xml">
+      <configuration name="InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 30m 27s.xml">
-      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest - 2018.07.13 at 00h 52m 15s.xml">
+      <configuration name="InputValidatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_get_2_when_input_is_1234 - 2018.07.13 at 00h 30m 32s.xml">
-      <configuration name="AnswerTest.should_get_2_when_input_is_1234" configurationId="JUnit" />
+    <history-entry file="InputValidatorTest_should_get_the_FAIL_status_when_guess_input_is_wrong - 2018.07.13 at 00h 52m 41s.xml">
+      <configuration name="InputValidatorTest.should_get_the_FAIL_status_when_guess_input_is_wrong" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -743,13 +769,13 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38471672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38425925" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.27628756" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3287037" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3287037" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21834764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21834764" />
       <window_info anchor="bottom" id="Build" weight="0.3298611" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
       <window_info anchor="right" id="Gradle" />
@@ -802,6 +828,12 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
           <line>54</line>
@@ -822,7 +854,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -830,13 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/validator/InputValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -872,13 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" selection-start-line="21" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1092,10 +1110,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/validator/InputValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+        <state relative-caret-position="293">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#607#608#0" expanded="true" />
@@ -1104,10 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/InputValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="258">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>
