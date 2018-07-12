@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d00515f-9335-4bf8-9a23-d9bc713e30a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,12 +30,78 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#607#608#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockMethodInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.19.0/c7a731fe218c6202c74cc79656bcb8f3bd4dc539/mockito-core-2.19.0-sources.jar!/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.19.0/c7a731fe218c6202c74cc79656bcb8f3bd4dc539/mockito-core-2.19.0-sources.jar!/org/mockito/internal/debugging/LocationImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.19.0/c7a731fe218c6202c74cc79656bcb8f3bd4dc539/mockito-core-2.19.0-sources.jar!/org/mockito/internal/invocation/RealMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#1014#1216#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1476#1477#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -360,11 +427,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="518" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="38" />
+    <option name="y" value="106" />
     <option name="width" value="1906" />
-    <option name="height" value="991" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -432,12 +499,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnswerTest.should_get_true_value_when_input_correct">
+  <component name="RunManager" selected="JUnit.AnswerTest.should_get_2A0B_when_input_incorrect">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_get_2A0B_when_input_incorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
@@ -498,29 +588,6 @@
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
       <option name="METHOD_NAME" value="should_throw_Excepetion_when_contains_special_chart" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_throw_Excepetion_when_num_greater_than_9" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -593,19 +660,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_greater_than_9" />
       <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_contains_special_chart" />
       <item itemvalue="JUnit.AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" />
       <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_repear" />
       <item itemvalue="JUnit.AnswerTest.should_get_true_value_when_input_correct" />
+      <item itemvalue="JUnit.AnswerTest.should_get_2A0B_when_input_incorrect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerTest.should_get_2A0B_when_input_incorrect" />
         <item itemvalue="JUnit.AnswerTest.should_get_true_value_when_input_correct" />
         <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_contains_special_chart" />
         <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_repear" />
         <item itemvalue="JUnit.AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" />
-        <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_greater_than_9" />
       </list>
     </recent_temporary>
   </component>
@@ -623,35 +690,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 27m 40s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 08m 43s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_contains_special_chart - 2018.07.12 at 23h 34m 13s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_contains_special_chart" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 08m 54s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 51m 43s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 10m 17s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 52m 04s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 11m 24s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 52m 40s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11 - 2018.07.12 at 23h 53m 28s.xml">
-      <configuration name="AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_repear - 2018.07.12 at 23h 55m 28s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_num_repear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_repear - 2018.07.12 at 23h 55m 40s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_num_repear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_get_true_value_when_input_correct - 2018.07.12 at 23h 57m 40s.xml">
+    <history-entry file="AnswerTest_should_get_true_value_when_input_correct - 2018.07.13 at 00h 11m 36s.xml">
       <configuration name="AnswerTest.should_get_true_value_when_input_correct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_contains_special_chart - 2018.07.12 at 23h 59m 53s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_contains_special_chart" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 11m 42s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 12m 34s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 16m 59s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 24m 22s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_get_2A0B_when_input_incorrect - 2018.07.13 at 00h 24m 34s.xml">
+      <configuration name="AnswerTest.should_get_2A0B_when_input_incorrect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -666,13 +733,13 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3564815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38548186" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.27628756" />
       <window_info anchor="bottom" id="Terminal" weight="0.32916147" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26877683" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21834764" />
       <window_info anchor="bottom" id="Build" weight="0.3298611" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
       <window_info anchor="right" id="Gradle" />
@@ -680,7 +747,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36921296" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3414352" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -695,13 +762,57 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java</url>
-          <line>26</line>
+          <line>113</line>
           <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java</url>
+          <line>54</line>
+          <properties class="tw.core.Answer" method="getIndexOfNum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java</url>
+          <line>14</line>
+          <properties class="tw.core.model.Record" method="increaseCurrentNum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -796,52 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6552">
-          <caret line="341" column="99" selection-start-line="341" selection-start-column="99" selection-end-line="341" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="276" column="47" selection-start-line="276" selection-start-column="47" selection-end-line="276" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/ThrowableCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="e#2301#2302#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/JupiterEngineExecutionContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -908,17 +973,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/ThrowableCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="84">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="276" column="47" selection-start-line="276" selection-start-column="47" selection-end-line="276" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1557" selection-start-line="1557" selection-end-line="1557" />
+          <folding>
+            <element signature="e#58481#58482#0" expanded="true" />
+            <element signature="e#58518#58519#0" expanded="true" />
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.19.0/c7a731fe218c6202c74cc79656bcb8f3bd4dc539/mockito-core-2.19.0-sources.jar!/org/mockito/internal/invocation/RealMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#1014#1216#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.19.0/c7a731fe218c6202c74cc79656bcb8f3bd4dc539/mockito-core-2.19.0-sources.jar!/org/mockito/internal/debugging/LocationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.19.0/c7a731fe218c6202c74cc79656bcb8f3bd4dc539/mockito-core-2.19.0-sources.jar!/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#607#608#0" expanded="true" />

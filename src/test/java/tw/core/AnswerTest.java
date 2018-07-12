@@ -99,8 +99,22 @@ public class AnswerTest {
         //then
         Record record = actualAnswer.check(answerString);
         assertThat(record.getValue(), is("4A0B"));
+    }
+
+
+    @Test
+    public void should_get_2A0B_when_given_incorrect_input(){
+
+        Answer mockAnswer = mock(Answer.class);
+        when(mockAnswer.getIndexOfNum("1")).thenReturn(1);
+        when(mockAnswer.getIndexOfNum("2")).thenReturn(-1);
+        when(mockAnswer.getIndexOfNum("3")).thenReturn(-1);
+        when(mockAnswer.getIndexOfNum("4")).thenReturn(2);
+        Record record = actualAnswer.check(mockAnswer);
+        assertThat(record.getValue(), is("0A2B"));
 
     }
+
 
 
 
