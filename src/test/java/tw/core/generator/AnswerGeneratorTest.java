@@ -20,6 +20,7 @@ public class AnswerGeneratorTest {
     public void should_throw_OutOfRangeAnswerException_which_is_not_between_0_and_9() {
         RandomIntGenerator randomIntGenerator = mock(RandomIntGenerator.class);
         when(randomIntGenerator.generateNums(anyInt(), anyInt())).thenReturn("1 2 3 10");
+        //new AnswerGenerator需要调用RandomIntGenerator类的generateNums
         AnswerGenerator answerGenerator = new AnswerGenerator(randomIntGenerator);
 
         assertThrows(AnswerFormatIncorrectException.class, answerGenerator::generate);
