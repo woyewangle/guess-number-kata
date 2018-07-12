@@ -34,7 +34,7 @@ public class AnswerTest {
     }
 
     @Test
-    public void should_not_throw_Excepetion_when_given_a_right_format() {
+    public void should_not_throw_Excepetion_when_call_validate_given_a_right_format() {
         Answer answer=Answer.createAnswer("1 2 3 4");
         try{
             answer.validate();
@@ -45,7 +45,7 @@ public class AnswerTest {
 
 
     @Test
-    public void should_throw_Excepetion_when_num_greater_than_9() throws Exception{
+    public void should_throw_Excepetion_when_call_validate_num_greater_than_9() throws Exception{
         Answer answer=Answer.createAnswer("1 2 3 10");
         try{
             answer.validate();
@@ -59,7 +59,7 @@ public class AnswerTest {
 
 
     @Test
-    public void should_throw_Excepetion_when_num_repear(){
+    public void should_throw_Excepetion_when_call_validate_num_repear(){
         Answer answer=Answer.createAnswer("1 2 3 3");
         try{
             answer.validate();
@@ -73,7 +73,7 @@ public class AnswerTest {
     }
 
     @Test
-    public void should_throw_Excepetion_when_contains_special_chart() {
+    public void should_throw_Excepetion_when_call_validate_contains_special_chart() {
         Answer answer=Answer.createAnswer("1 2、 3 4");
         try{
             answer.validate();
@@ -87,7 +87,7 @@ public class AnswerTest {
 
 
     @Test
-    public void should_return_true_value_when_given_correct_input(){
+    public void should_return_true_value_when_call_check_given_correct_input(){
         //given
         Answer answerString = mock(Answer.class);
         //涉及到answer类的其他参数
@@ -103,7 +103,7 @@ public class AnswerTest {
 
 
     @Test
-    public void should_get_2A0B_when_given_incorrect_input(){
+    public void should_get_2A0B_when_call_check_given_incorrect_input(){
 
         Answer mockAnswer = mock(Answer.class);
         when(mockAnswer.getIndexOfNum("1")).thenReturn(1);
@@ -115,9 +115,10 @@ public class AnswerTest {
     }
 
     @Test
-    public void should_get_2_when_input_is_1234(){
+    public void should_get_2_when_call_getIndexOfNum_input_is_1234(){
+        //given
         Answer answer = Answer.createAnswer("1 2 3 4");
-
+        //when
         int index = answer.getIndexOfNum("1");
         //then
         assertThat(index,is(0));

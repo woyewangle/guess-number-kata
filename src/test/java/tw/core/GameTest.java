@@ -38,4 +38,19 @@ public class GameTest {
     }
 
 
+    @Test
+    public void should_get_the_success_status_when_guess_input_is_wrong() throws Exception {
+
+        //given
+//        excuteSuccessGuess();
+        GuessResult guess = game.guess(Answer.createAnswer("2 4 7 8"));
+        //when
+        //then
+        assertThat(guess.getResult(), is("0A2B"));
+
+    }
+
+
+
+
 }
