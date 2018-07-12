@@ -112,8 +112,19 @@ public class AnswerTest {
         when(mockAnswer.getIndexOfNum("4")).thenReturn(2);
         Record record = actualAnswer.check(mockAnswer);
         assertThat(record.getValue(), is("0A2B"));
-
     }
+
+    @Test
+    public void should_get_2_when_input_is_1234(){
+        Answer answer = Answer.createAnswer("1 2 3 4");
+
+        int index = answer.getIndexOfNum("1");
+        //then
+        assertThat(index,is(0));
+    }
+
+
+
 
 
 
