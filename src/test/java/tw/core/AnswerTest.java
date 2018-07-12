@@ -51,6 +51,20 @@ public class AnswerTest {
         fail("输入的数字大于9,应该抛异常");
     }
 
+    @Test
+    public void should_throw_Excepetion_when_contains_special_chart() {
+        Answer answer=Answer.createAnswer("1 2、 3 4");
+        try{
+            answer.validate();
+
+        }catch (Exception e){
+            return;
+
+        }
+        fail("输入错误格式,应该抛异常");
+    }
+
+
 
 
 
