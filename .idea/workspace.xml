@@ -29,22 +29,13 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="340">
+              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -441,14 +432,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnswerTest.should_throw_Excepetion_when_contains_special_chart">
+  <component name="RunManager" selected="JUnit.AnswerTest.should_get_true_value_when_input_correct">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="AnswerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -460,8 +451,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -471,7 +462,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_not_throw_Excepetion_when_given_a_right_format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_get_true_value_when_input_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -483,7 +474,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_not_throw_Excepetion_when_given_a_right_format" />
+      <option name="METHOD_NAME" value="should_get_true_value_when_input_correct" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -517,29 +508,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_throw_Excepetion_when_given_a_incorrect_format" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
@@ -553,6 +521,29 @@
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
       <option name="METHOD_NAME" value="should_throw_Excepetion_when_num_greater_than_9" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AnswerTest.should_throw_Excepetion_when_num_repear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_throw_Excepetion_when_num_repear" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -602,19 +593,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest" />
-      <item itemvalue="JUnit.AnswerTest.should_not_throw_Excepetion_when_given_a_right_format" />
-      <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" />
       <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_greater_than_9" />
       <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_contains_special_chart" />
+      <item itemvalue="JUnit.AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" />
+      <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_repear" />
+      <item itemvalue="JUnit.AnswerTest.should_get_true_value_when_input_correct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerTest.should_get_true_value_when_input_correct" />
         <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_contains_special_chart" />
+        <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_repear" />
+        <item itemvalue="JUnit.AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" />
         <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_num_greater_than_9" />
-        <item itemvalue="JUnit.AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" />
-        <item itemvalue="JUnit.AnswerTest.should_not_throw_Excepetion_when_given_a_right_format" />
-        <item itemvalue="JUnit.AnswerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -632,56 +623,56 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_not_throw_Excepetion_when_given_a_right_format - 2018.07.12 at 23h 17m 15s.xml">
-      <configuration name="AnswerTest.should_not_throw_Excepetion_when_given_a_right_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 20m 45s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 21m 19s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 22m 28s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 22m 50s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 23m 37s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 23m 49s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 24m 12s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_throw_Excepetion_when_given_a_incorrect_format - 2018.07.12 at 23h 24m 34s.xml">
-      <configuration name="AnswerTest.should_throw_Excepetion_when_given_a_incorrect_format" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 27m 40s.xml">
       <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AnswerTest_should_throw_Excepetion_when_contains_special_chart - 2018.07.12 at 23h 34m 13s.xml">
+      <configuration name="AnswerTest.should_throw_Excepetion_when_contains_special_chart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 51m 43s.xml">
+      <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 52m 04s.xml">
+      <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_greater_than_9 - 2018.07.12 at 23h 52m 40s.xml">
+      <configuration name="AnswerTest.should_throw_Excepetion_when_num_greater_than_9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11 - 2018.07.12 at 23h 53m 28s.xml">
+      <configuration name="AnswerTest.should_get_the_Record_when_call_validate_input_inputAnswer_1_2_10_11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_repear - 2018.07.12 at 23h 55m 28s.xml">
+      <configuration name="AnswerTest.should_throw_Excepetion_when_num_repear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_throw_Excepetion_when_num_repear - 2018.07.12 at 23h 55m 40s.xml">
+      <configuration name="AnswerTest.should_throw_Excepetion_when_num_repear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_get_true_value_when_input_correct - 2018.07.12 at 23h 57m 40s.xml">
+      <configuration name="AnswerTest.should_get_true_value_when_input_correct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_throw_Excepetion_when_contains_special_chart - 2018.07.12 at 23h 59m 53s.xml">
+      <configuration name="AnswerTest.should_throw_Excepetion_when_contains_special_chart" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="518" y="28" width="1906" height="991" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32916147" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35669586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3564815" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.478735" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32916147" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.27628756" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32916147" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05834242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26877683" />
       <window_info anchor="bottom" id="Build" weight="0.3298611" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
       <window_info anchor="right" id="Gradle" />
@@ -689,7 +680,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36921296" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -706,7 +697,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java</url>
-          <line>20</line>
+          <line>26</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -807,19 +798,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6552">
+          <caret line="341" column="99" selection-start-line="341" selection-start-column="99" selection-end-line="341" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="276" column="47" selection-start-line="276" selection-start-column="47" selection-end-line="276" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/ThrowableCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2472#2473#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/execution/JupiterEngineExecutionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/AbstractPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="1081" selection-start-line="1081" selection-end-line="1081" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/extension/ExtensionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.0.0/junit-platform-engine-1.0.0.jar!/org/junit/platform/engine/support/hierarchical/SingleTestExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.0.0/junit-platform-engine-1.0.0.jar!/org/junit/platform/engine/support/hierarchical/HierarchicalTestEngine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.0.0/junit-platform-engine-1.0.0.jar!/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#1372#1373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0/4c6857961c360e817cb92c51ca8c35dc84042604/junit-jupiter-engine-5.0.0-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        <state relative-caret-position="340">
+          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
           </folding>
         </state>
       </provider>
